@@ -3,6 +3,7 @@ description: "Alice + Chopper integration. It contains plugin for Alice which al
 version: 1.0.8
 repository: https://github.com/jhomlala/alice
 homepage: https://github.com/jhomlala/alice
+publish_to: "none"
 topics:
   - http
   - inspector
@@ -15,7 +16,8 @@ environment:
   flutter: ">=3.29.0"
 
 dependencies:
-  alice: ^1.0.0
+  alice:
+    path: ../../packages/alice
   chopper: ^8.2.0
   http: ^1.4.0
   uuid: ^4.5.1
